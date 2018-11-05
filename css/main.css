@@ -25,7 +25,7 @@ header{
     background-image:url(../img/dog.jpeg);
     background-size:cover;
     background-position:center; 
-    border-bottom: 1rem solid hsl(357,80%,60%)
+    border-bottom: 1rem solid hsl(357,80%,60%);
 }
 header img{
     width: 15%;
@@ -95,7 +95,7 @@ form{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
-    padding: 1rem
+    padding: 1rem;
 }
 .search-btn{
     width:100%;
@@ -124,7 +124,7 @@ input.price#max::after{
         margin-bottom: 2rem;
     } 
     .search-btn{
-        width: 30%
+        width: 30%;
     }
     header img{
         width: 20%;
@@ -140,13 +140,13 @@ input.price#max::after{
 
 @media (min-width: 1000px){
     main{
-        height: 355px
+        height: 355px;
     }
     header{
         float: right;
         min-width: 500px;
         border-bottom: none;
-        border-left: 1rem solid hsl(357,80%,60%)
+        border-left: 1rem solid hsl(357,80%,60%);
     }
     span{
         padding-top: 3rem;
