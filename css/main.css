@@ -140,11 +140,15 @@ input.price#max::after{
 
 @media (min-width: 1000px){
     main{
-        height: 355px;
+        height: 353px;
     }
+
     header{
+        height: 350px;
+        width: 500px;
+        padding:0rem;
         float: right;
-        min-width: 500px;
+        background-size:cover;
         border-bottom: none;
         border-left: 1rem solid hsl(357,80%,60%);
     }
