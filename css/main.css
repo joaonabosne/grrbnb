@@ -22,7 +22,7 @@ main{
 }
 header{
     /*image source:https://unsplash.com/photos/915UJQaxtrk*/
-    background-image:url(/img/dog.jpeg);
+    background-image:url(./img/dog.jpeg);
     background-size:cover;
     background-position:center; 
     border-bottom: 1rem solid hsl(357,80%,60%)
